@@ -39,6 +39,7 @@ public class KMPSearch {
         String a = "ababa";
         String b = "ssdfgasdbababa";
         int[] next = kmpnext(a);
+
         int res = kmp(b, a, next);
         System.out.println(res);
         for (int i = 0; i < next.length; i++) {

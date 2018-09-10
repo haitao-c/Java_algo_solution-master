@@ -3,10 +3,12 @@ package io.haitaoc.xiaozhao;
 
 import java.util.Scanner;
 
-public class Main3 {
+public class ZhaoHang19_3 {
 
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
+        int a=Integer.valueOf("123",10);
+        System.out.println(a);
         while(scanner.hasNext()){
             String str=scanner.next();
             int   cCount=first(str,'C');

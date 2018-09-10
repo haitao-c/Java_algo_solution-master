@@ -1,11 +1,9 @@
 package io.haitaoc.xiaozhao;
 
-import io.haitaoc.util.PrintArray;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main2 {
+public class ZhaoHang19_2 {
 
     public void run() {
         Scanner scan = new Scanner(System.in);
@@ -43,6 +41,6 @@ public class Main2 {
 
 
     public static void main(String[] args) {
-        new Main2().run();
+        new ZhaoHang19_2().run();
     }
 }
