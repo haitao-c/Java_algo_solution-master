@@ -35,8 +35,5 @@ public class Test {
         node2Right.right=node2RightRight;
         System.out.println(new Test().hasPathSum(root,22));
 
-
-
-
     }
 }
